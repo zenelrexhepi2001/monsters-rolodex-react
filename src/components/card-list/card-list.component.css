@@ -1,0 +1,21 @@
+body {
+    background: darkcyan;
+}
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.card-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   grid-row-gap: 2rem;
+   text-align: center;
+}
+
+
+h1,p {
+    margin: 0;
+}
